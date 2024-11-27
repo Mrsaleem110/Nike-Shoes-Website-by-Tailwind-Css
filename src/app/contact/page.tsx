@@ -23,6 +23,7 @@ const Contact = () => {
           required
         />
         <input
+
           type="email"
           placeholder="Email Address"
           className="w-full px-4 py-2 sm:text-xl md:text-2xl border border-blue-500 rounded-md"
