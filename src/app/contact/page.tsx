@@ -37,7 +37,7 @@ const Contact = () => {
         <textarea
           placeholder="Message"
           rows={5}
-          className="w-full px-4 py-2 sm:text-xl md:text-2xl border border-blue-500 rounded-md"
+          className="w-full px-4 py-2 text-black sm:text-xl md:text-2xl border border-blue-500 rounded-md"
           required
         ></textarea>
 

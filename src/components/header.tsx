@@ -60,8 +60,8 @@ export default function Header() {
         <div
           className={`${
             isOpen ? 'block' : 'hidden'
-          } md:hidden bg-blue-500 text-white space-y-4 py-4 px-6`}
-        >
+          } md:hidden bg-blue-500 text-white  space-y-4 py-4 px-6`}
+        ><div className='flex gap-2'>
           <Link href="/" className="text-lg hover:text-gray-300">
             Home
           </Link>
@@ -76,6 +76,7 @@ export default function Header() {
           </Link>
            <FaShoppingBag/>
         </div>
+      </div>
       </div>
     </header>
   );
